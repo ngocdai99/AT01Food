@@ -1,0 +1,407 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1150px;
+    height: 350px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header_top {
+    height: 40px;
+    background-color: rgb(6, 92, 52, 0.85);
+    color: white;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    position: fixed;
+
+    font-weight: bold;
+}
+
+.dienthoai {
+    position: absolute;
+    left: calc(50% - 580px);
+    line-height: 40px;
+    text-align: center;
+}
+
+.email {
+    position: absolute;
+    line-height: 40px;
+    left: calc(50% - 300px);
+    justify-content: center;
+}
+
+.login {
+    position: absolute;
+    width: 250px;
+    left: calc(50% + 295px);
+
+}
+
+.login>div {
+    float: left;
+    width: 120px;
+    height: 40px;
+    position: relative;
+    justify-content: center;
+
+}
+
+.login a {
+    color: white;
+    padding-left: 15px;
+    position: absolute;
+    top: 10px;
+
+}
+
+.login>div:hover {
+    background-color: rgb(255, 108, 1);
+    border-radius: 10px;
+}
+
+header {
+    height: 80px;
+    left: 0;
+    right: 0;
+    top: 40px;
+    position: fixed;
+
+    z-index: 2;
+    background: white;
+
+
+}
+
+
+#logoAT01 {
+    position: absolute;
+    top: 5px;
+    left: calc(50% - 580px);
+    width: 230px;
+    height: 70px;
+}
+
+header>table {
+    position: absolute;
+    width: 700px;
+    top: 20px;
+    left: calc(50% - 300px);
+}
+
+
+.basket {
+    border-radius: 20px;
+    width: 145px;
+    height: 40px;
+    background-color: orange;
+    position: absolute;
+    top: 20px;
+    left: calc(50% + 390px);
+    text-align: center;
+    cursor: pointer;
+}
+
+.basket:hover {
+    background-color: rgb(109, 174, 11);
+}
+
+.basket>a {
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+nav {
+    height: 48px;
+    background-color: rgb(6, 92, 52, 0.85);
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    margin-top: 0px;
+    left: 0;
+    top: 120px;
+    right: 0;
+}
+
+.fa-home {
+    position: relative;
+    bottom: 8px;
+}
+
+nav>ul {
+    position: absolute;
+    left: calc(50% - 582px);
+}
+
+nav>ul>li {
+    float: left;
+    height: 48px;
+    padding: 15px;
+}
+
+nav>ul>li:hover {
+    background-color: rgb(255, 108, 1);
+}
+
+nav>ul>li>a {
+    color: white;
+}
+
+i.arrow-down {
+    margin-left: 10px;
+}
+
+.subnav {
+    width: 120px;
+    position: absolute;
+    top: 48px;
+    right: -12px;
+    display: none;
+
+    color: white;
+
+    border: 1px solid rgb(255, 108, 1);
+    background-color: rgba(6, 92, 52);
+
+}
+
+.subnav>li {
+    transition: 0.1s;
+}
+
+.subsanpham {
+    width: 122px;
+    position: absolute;
+    top: 48px;
+    left: 46%;
+}
+
+.subhoaqua {
+    display: none;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 117px;
+    background-color: rgb(6, 92, 52);
+
+    color: white;
+}
+
+.subhoaqua>li>a {
+    color: white;
+}
+
+.subhoaqua>li {
+    padding-left: 10px;
+}
+
+li:nth-child(3):hover>.subhoaqua {
+    display: block;
+}
+
+.subhoaqua>li:hover {
+    background-color: rgb(255, 108, 1);
+    transform: scale(1.02);
+
+}
+
+
+.subnav>li {
+
+    border: 1px dotted gray;
+    padding-left: 10px;
+
+}
+
+.subnav>li:hover {
+    background-color: rgb(255, 108, 1);
+    transform: scale(1.02);
+
+}
+
+.subnav>li>a {
+    color: white;
+}
+
+i.fa {
+    color: white;
+    padding-right: 10px;
+}
+
+i.fa-facebook {
+    padding-right: 18px;
+}
+
+i.fa-envelope-o {
+    padding-right: 10px;
+}
+
+i.fa-phone-square {
+    padding-right: 12px;
+}
+
+nav>ul>li:hover>.subnav {
+    display: block;
+}
+
+nav>img {
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    left: calc(50% + 20px);
+}
+
+nav>input {
+    width: 200px;
+    position: absolute;
+    left: calc(50% + 335px);
+    top: 8px;
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 9px;
+}
+
+
+section.veget-fresh {
+    width: 1175px;
+    height: 80px;
+    position: absolute;
+    top: 800px;
+    left: calc(50% - 580px);
+
+}
+section.veget-fresh a:hover{
+    opacity: 0.5;
+}
+
+
+.veget-fresh img {
+    width: 175px;
+    height: 80px;
+    float: left;
+    border-radius: 10px;
+    margin-right: 60px;
+
+}
+
+#dangky {
+    width: fit-content;
+    position: relative;
+    top: 200px;
+    left: calc(50% - 280px);
+    
+    
+    
+}
+#dangky h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#dangky input{
+    background-color: rgb(248, 245, 245);
+    border: none;
+    width: 500px;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+#dangky input:focus{
+    border-color: gray;
+}
+#dangky a{
+    color: blue;
+}
+
+#dangky .dangky-gender{
+    width: 10px;
+    margin-right: 10px;
+    background-color: rgb(20, 160, 76);
+    transform: scale(1.5);
+    margin-left: 10px;
+}
+
+#dangky button{
+    color: white;
+    background-color: rgb(60, 182, 60);
+    border: 1px solid green;
+    position: absolute;
+    top: 450px;
+    left:0;
+    padding: 10px 30px;
+    cursor: pointer;   
+    border: none;
+}
+
+#dangky button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid green;
+    transition: 1s;  
+    transform: smooth;
+}
+
+
+
+footer {
+
+    left: 0;
+    right: 0;
+    position: absolute;
+    height: 220px;
+    color: green;
+    background: url(../images/logoAT01.png) no-repeat;
+    background-size: 10%;
+    background-position: calc(50% - 100px);
+    background-position-y: 80px;
+    background-color: rgb(0, 128, 0, 0.25);
+    top: 1000px;
+}
+
+footer>table {
+    width: 800px;
+    
+    position: absolute;
+    left: calc(50% - 585px);
+
+}
+
+th>ul>li {
+    list-style: none;
+    padding-top: 20px;
+
+    width: 500px;
+}
+
+th>ul>li>a {
+    color: green;
+}
+
+th>ul>li>a:hover {
+    opacity: 0.6;
+}
+
+
+.fb-page {
+    position: absolute;
+    top: 80px;
+    
+    left: calc(50% + 285px);
+    width: 300px;
+   
+}
